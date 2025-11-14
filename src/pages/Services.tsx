@@ -17,6 +17,11 @@ import { useNavigate } from "react-router-dom";
 
 const allServices = [
   {
+    icon: Wrench,
+    title: "Installation",
+    description: "Professional installation for all plumbing fixtures and appliances."
+  },
+  {
     icon: Droplets,
     title: "Leak Detection",
     description: "Unlike major disasters, leaks can be discreet. Our advanced technology finds them fast."
