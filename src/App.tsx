@@ -12,6 +12,10 @@ import Pricing from "./pages/Pricing";
 import DrainCleaning from "./pages/services/DrainCleaning";
 import WaterHeaters from "./pages/services/WaterHeaters";
 import LeakDetection from "./pages/services/LeakDetection";
+import Installation from "./pages/services/Installation";
+import Faucet from "./pages/services/installation/Faucet";
+import Toilet from "./pages/services/installation/Toilet";
+import GarbageDisposal from "./pages/services/installation/GarbageDisposal";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +31,10 @@ const App = () => (
           <Route path="/services/drain-cleaning" element={<DrainCleaning />} />
           <Route path="/services/water-heaters" element={<WaterHeaters />} />
           <Route path="/services/leak-detection" element={<LeakDetection />} />
+          <Route path="/services/installation" element={<Installation />} />
+          <Route path="/services/installation/faucet" element={<Faucet />} />
+          <Route path="/services/installation/toilet" element={<Toilet />} />
+          <Route path="/services/installation/garbage-disposal" element={<GarbageDisposal />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/about" element={<About />} />
