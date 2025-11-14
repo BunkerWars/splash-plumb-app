@@ -13,6 +13,7 @@ const OutdoorFaucet = () => {
       <Helmet>
         <title>Outdoor Faucet Repair Fresno, CA | Hose Bib & Spigot Fixes | Freeze Damage</title>
         <meta name="description" content="Outdoor faucet repair in Fresno: hose bibs, spigots, freeze damage, leaks. Fast repairs for yard & garden faucets. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/outdoor-faucet" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

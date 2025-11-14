@@ -13,6 +13,7 @@ const About = () => {
       <Helmet>
         <title>About Fresno Plumbing - 79 Years Serving Central Valley, CA | Licensed & Certified</title>
         <meta name="description" content="Fresno Plumbing has served Central Valley since 1945. Licensed, certified plumbers offering residential, commercial & industrial services. Medical gas certified. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/about" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

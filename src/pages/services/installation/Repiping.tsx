@@ -13,6 +13,7 @@ const Repiping = () => {
       <Helmet>
         <title>Repiping Services Fresno, CA | Complete Pipe Replacement | Copper & PEX</title>
         <meta name="description" content="Whole-home repiping in Fresno: copper, PEX pipes, corroded pipe replacement. Stop leaks permanently! Licensed plumbers, 79 years experience. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/repiping" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

@@ -13,6 +13,7 @@ const DrainCleaning = () => {
       <Helmet>
         <title>Drain Cleaning Fresno, CA | Clogged Drains, Sewer Lines | Fast Service</title>
         <meta name="description" content="Professional drain cleaning in Fresno: kitchen sinks, toilets, showers, main sewer lines. Hydro-jetting, video inspection. Clogged drain? We clear it fast! Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/drain-cleaning" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

@@ -13,6 +13,7 @@ const Pipe = () => {
       <Helmet>
         <title>Pipe Repair Fresno, CA | Fix Leaking & Burst Pipes | 24/7 Emergency Service</title>
         <meta name="description" content="Emergency pipe repair in Fresno: leaking pipes, burst pipes, frozen pipes. Fast response, licensed plumbers, 24/7 service. 79 years serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/pipe" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

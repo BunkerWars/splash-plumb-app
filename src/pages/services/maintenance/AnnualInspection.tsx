@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, CheckCircle2, Clock, Shield, Award } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,11 @@ const AnnualInspection = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Annual Plumbing Inspection Fresno, CA | Prevent Costly Repairs</title>
+        <meta name="description" content="Annual plumbing inspection in Fresno: comprehensive home checkup, leak detection, system evaluation. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/maintenance/annual-inspection" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
           <Button variant="ghost" size="icon" onClick={() => navigate('/services/maintenance')} className="tap-scale">

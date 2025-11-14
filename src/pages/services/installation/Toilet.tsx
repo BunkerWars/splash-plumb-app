@@ -13,6 +13,7 @@ const Toilet = () => {
       <Helmet>
         <title>Toilet Installation Fresno, CA | New Toilet Replacement | Professional Plumbers</title>
         <meta name="description" content="Expert toilet installation in Fresno: all brands, efficient models, proper installation. Licensed plumbers serving Central Valley for 79 years. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/toilet" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

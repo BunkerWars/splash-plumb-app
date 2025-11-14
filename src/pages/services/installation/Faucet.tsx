@@ -13,6 +13,7 @@ const Faucet = () => {
       <Helmet>
         <title>Faucet Installation Fresno, CA | Kitchen & Bathroom Faucets | Expert Plumbers</title>
         <meta name="description" content="Professional faucet installation in Fresno: kitchen sinks, bathroom vanities, all brands. Licensed plumbers, quality fixtures, 79 years experience. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/faucet" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

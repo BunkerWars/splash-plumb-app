@@ -13,6 +13,7 @@ const Drain = () => {
       <Helmet>
         <title>Drain Repair Fresno, CA | Fix Damaged Drains & Persistent Clogs</title>
         <meta name="description" content="Drain repair in Fresno: damaged pipes, persistent clogs, slow drainage. Expert repairs for kitchen, bathroom & floor drains. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/drain" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

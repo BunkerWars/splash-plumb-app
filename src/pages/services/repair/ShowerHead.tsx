@@ -13,6 +13,7 @@ const ShowerHead = () => {
       <Helmet>
         <title>Shower Head Repair Fresno, CA | Fix Leaks, Low Pressure & Clogs</title>
         <meta name="description" content="Shower head repair in Fresno: fix leaks, low water pressure, clogged spray holes. Fast repairs, licensed plumbers, 79 years serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/shower-head" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

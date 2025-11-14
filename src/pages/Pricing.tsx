@@ -13,6 +13,7 @@ const Pricing = () => {
       <Helmet>
         <title>Plumbing Prices in Fresno, CA | Transparent Pricing | Free Estimates</title>
         <meta name="description" content="Upfront plumbing prices in Fresno, CA. No hidden fees. Get free estimates on drain cleaning, water heaters, repairs & more. Senior & military discounts. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/pricing" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

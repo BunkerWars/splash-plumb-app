@@ -85,6 +85,7 @@ const Installation = () => {
       <Helmet>
         <title>Plumbing Installation Services Fresno, CA | Faucets, Toilets, Water Heaters & More</title>
         <meta name="description" content="Expert plumbing installation in Fresno: faucets, toilets, water heaters, dishwashers, garbage disposals, sinks & repiping. Licensed installers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

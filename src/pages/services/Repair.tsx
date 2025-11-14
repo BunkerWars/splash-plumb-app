@@ -84,6 +84,7 @@ const Repair = () => {
       <Helmet>
         <title>Plumbing Repair Services Fresno, CA | Fix Leaks, Pipes, Toilets & Water Heaters</title>
         <meta name="description" content="Fast plumbing repairs in Fresno: leaky faucets, burst pipes, toilets, water heaters, drains, sewer lines & more. 24/7 emergency repairs, licensed plumbers. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

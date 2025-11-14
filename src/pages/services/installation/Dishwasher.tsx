@@ -13,6 +13,7 @@ const Dishwasher = () => {
       <Helmet>
         <title>Dishwasher Installation Fresno, CA | Complete Hookup & Replacement Service</title>
         <meta name="description" content="Dishwasher installation in Fresno: all brands, proper connections, water & electrical hookup. Licensed plumbers serving Central Valley for 79 years. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/dishwasher" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

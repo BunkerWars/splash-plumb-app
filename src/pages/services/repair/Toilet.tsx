@@ -13,6 +13,7 @@ const Toilet = () => {
       <Helmet>
         <title>Toilet Repair Fresno, CA | Fix Running Toilets, Leaks & Flush Problems</title>
         <meta name="description" content="Toilet repair in Fresno: running toilets, leaks, flush issues, clogs. Fast repairs for all brands. Licensed plumbers, 79 years experience serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/toilet" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

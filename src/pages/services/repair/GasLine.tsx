@@ -13,6 +13,7 @@ const GasLine = () => {
       <Helmet>
         <title>Gas Line Repair Fresno, CA | Emergency Gas Leak Fixes | Certified Technicians</title>
         <meta name="description" content="Emergency gas line repair in Fresno: gas leaks, damaged lines, safety inspections. 24/7 certified technicians, licensed, insured. 79 years serving Central Valley. Call (559) 292-4065 NOW!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/gas-line" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
