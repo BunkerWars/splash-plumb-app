@@ -12,18 +12,16 @@ const About = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>About Fresno Plumbing - 79 Years Serving Central Valley, CA | Licensed & Certified</title>
-        <meta name="description" content="Fresno Plumbing has served Central Valley since 1945. Licensed, certified plumbers offering residential, commercial & industrial services. Medical gas certified. Call (559) 292-4065!" />
+        <meta
+          name="description"
+          content="Fresno Plumbing has served Central Valley since 1945. Licensed, certified plumbers offering residential, commercial & industrial services. Medical gas certified. Call (559) 292-4065!"
+        />
         <link rel="canonical" href="https://fresno.plumbing/about" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => navigate(-1)}
-            className="tap-scale"
-          >
+          <Button variant="ghost" size="icon" onClick={() => navigate(-1)} className="tap-scale">
             <ArrowLeft className="h-5 w-5" />
           </Button>
           <div>
@@ -36,8 +34,8 @@ const About = () => {
         <div className="bg-navy p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
           <h2 className="text-2xl font-bold">79 Years of Excellence</h2>
           <p className="text-sm opacity-90">
-            Fresno Plumbing & Heating, Inc. has been serving the Central Valley since 1945, 
-            providing top-quality plumbing services to residential, commercial, and industrial clients.
+            Fresno Plumbing & Heating, Inc. has been serving the Central Valley since 1945, providing top-quality
+            plumbing services to residential, commercial, and industrial clients.
           </p>
         </div>
 
@@ -56,7 +54,7 @@ const About = () => {
         {/* Why Choose Us */}
         <div className="space-y-4 mb-8">
           <h2 className="text-2xl font-bold text-navy">Why Choose Us</h2>
-          
+
           <div className="glass-card p-6 space-y-4">
             <div className="flex items-start gap-4">
               <div className="rounded-2xl bg-navy p-3">
@@ -149,7 +147,7 @@ const About = () => {
                 <Youtube className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/OfficialFresnoPlumbing"
                 className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
                 aria-label="Facebook"
               >
@@ -176,9 +174,7 @@ const About = () => {
         {/* CTA */}
         <div className="bg-navy p-6 rounded-2xl text-white space-y-3">
           <h3 className="text-xl font-bold">Get in Touch</h3>
-          <p className="text-sm opacity-90">
-            Experience the difference that 79 years of expertise makes.
-          </p>
+          <p className="text-sm opacity-90">Experience the difference that 79 years of expertise makes.</p>
           <a href="tel:+15592924065">
             <Button size="lg" className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
               Call (559) 292-4065
