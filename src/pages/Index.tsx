@@ -10,6 +10,7 @@ import {
   ShieldCheck,
   Zap
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const services = [
   {
@@ -45,6 +46,8 @@ const services = [
 ];
 
 const Index = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
       <Hero />
@@ -54,7 +57,7 @@ const Index = () => {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold text-navy">Our Services</h2>
-            <button className="text-sm text-gold font-medium hover:text-gold/80">View All</button>
+            <button onClick={() => navigate('/services')} className="text-sm text-gold font-medium hover:text-gold/80">View All</button>
           </div>
 
           <div className="space-y-3 animate-slide-up">
