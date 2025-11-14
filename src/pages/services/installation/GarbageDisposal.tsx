@@ -11,7 +11,7 @@ const GarbageDisposal = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
-          <Button variant="ghost" size="icon" onClick={() => navigate(-1)} className="tap-scale">
+          <Button variant="ghost" size="icon" onClick={() => navigate('/services/installation')} className="tap-scale">
             <ArrowLeft className="h-5 w-5" />
           </Button>
           <div>
