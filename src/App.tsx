@@ -16,6 +16,13 @@ import Installation from "./pages/services/Installation";
 import Faucet from "./pages/services/installation/Faucet";
 import Toilet from "./pages/services/installation/Toilet";
 import GarbageDisposal from "./pages/services/installation/GarbageDisposal";
+import ShowerHead from "./pages/services/installation/ShowerHead";
+import Dishwasher from "./pages/services/installation/Dishwasher";
+import KitchenSink from "./pages/services/installation/KitchenSink";
+import WaterFiltration from "./pages/services/installation/WaterFiltration";
+import WaterSoftener from "./pages/services/installation/WaterSoftener";
+import GasLine from "./pages/services/installation/GasLine";
+import Repiping from "./pages/services/installation/Repiping";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +42,13 @@ const App = () => (
           <Route path="/services/installation/faucet" element={<Faucet />} />
           <Route path="/services/installation/toilet" element={<Toilet />} />
           <Route path="/services/installation/garbage-disposal" element={<GarbageDisposal />} />
+          <Route path="/services/installation/shower-head" element={<ShowerHead />} />
+          <Route path="/services/installation/dishwasher" element={<Dishwasher />} />
+          <Route path="/services/installation/kitchen-sink" element={<KitchenSink />} />
+          <Route path="/services/installation/water-filtration-system" element={<WaterFiltration />} />
+          <Route path="/services/installation/water-softener" element={<WaterSoftener />} />
+          <Route path="/services/installation/gas-line" element={<GasLine />} />
+          <Route path="/services/installation/pipes-repiping" element={<Repiping />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/about" element={<About />} />
