@@ -2,210 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://yourwebsite.com/</loc>
+    <loc>https://fresno.plumbing/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/about</loc>
+    <loc>https://fresno.plumbing/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services</loc>
+    <loc>https://fresno.plumbing/services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/pricing</loc>
+    <loc>https://fresno.plumbing/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/emergency</loc>
+    <loc>https://fresno.plumbing/emergency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <!-- Service Pages -->
   <url>
-    <loc>https://yourwebsite.com/services/drain-cleaning</loc>
+    <loc>https://fresno.plumbing/services/drain-cleaning</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation</loc>
+    <loc>https://fresno.plumbing/services/installation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/leak-detection</loc>
+    <loc>https://fresno.plumbing/services/leak-detection</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance</loc>
+    <loc>https://fresno.plumbing/services/maintenance</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair</loc>
+    <loc>https://fresno.plumbing/services/repair</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/water-heaters</loc>
+    <loc>https://fresno.plumbing/services/water-heaters</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Installation Services -->
   <url>
-    <loc>https://yourwebsite.com/services/installation/dishwasher</loc>
+    <loc>https://fresno.plumbing/services/installation/dishwasher</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/faucet</loc>
+    <loc>https://fresno.plumbing/services/installation/faucet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/garbage-disposal</loc>
+    <loc>https://fresno.plumbing/services/installation/garbage-disposal</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/gas-line</loc>
+    <loc>https://fresno.plumbing/services/installation/gas-line</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/kitchen-sink</loc>
+    <loc>https://fresno.plumbing/services/installation/kitchen-sink</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/repiping</loc>
+    <loc>https://fresno.plumbing/services/installation/repiping</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/shower-head</loc>
+    <loc>https://fresno.plumbing/services/installation/shower-head</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/toilet</loc>
+    <loc>https://fresno.plumbing/services/installation/toilet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/water-filtration</loc>
+    <loc>https://fresno.plumbing/services/installation/water-filtration</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/installation/water-softener</loc>
+    <loc>https://fresno.plumbing/services/installation/water-softener</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <!-- Maintenance Services -->
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/annual-inspection</loc>
+    <loc>https://fresno.plumbing/services/maintenance/annual-inspection</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/backflow-testing</loc>
+    <loc>https://fresno.plumbing/services/maintenance/backflow-testing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/drain-cleaning</loc>
+    <loc>https://fresno.plumbing/services/maintenance/drain-cleaning</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/garbage-disposal</loc>
+    <loc>https://fresno.plumbing/services/maintenance/garbage-disposal</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/sewer-line-cleaning</loc>
+    <loc>https://fresno.plumbing/services/maintenance/sewer-line-cleaning</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/sump-pump</loc>
+    <loc>https://fresno.plumbing/services/maintenance/sump-pump</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/water-heater-maintenance</loc>
+    <loc>https://fresno.plumbing/services/maintenance/water-heater-maintenance</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/maintenance/water-softener</loc>
+    <loc>https://fresno.plumbing/services/maintenance/water-softener</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <!-- Repair Services -->
   <url>
-    <loc>https://yourwebsite.com/services/repair/drain</loc>
+    <loc>https://fresno.plumbing/services/repair/drain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/faucet</loc>
+    <loc>https://fresno.plumbing/services/repair/faucet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/garbage-disposal</loc>
+    <loc>https://fresno.plumbing/services/repair/garbage-disposal</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/gas-line</loc>
+    <loc>https://fresno.plumbing/services/repair/gas-line</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/outdoor-faucet</loc>
+    <loc>https://fresno.plumbing/services/repair/outdoor-faucet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/pipe</loc>
+    <loc>https://fresno.plumbing/services/repair/pipe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/sewer-line</loc>
+    <loc>https://fresno.plumbing/services/repair/sewer-line</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/shower-head</loc>
+    <loc>https://fresno.plumbing/services/repair/shower-head</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/toilet</loc>
+    <loc>https://fresno.plumbing/services/repair/toilet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/water-heater</loc>
+    <loc>https://fresno.plumbing/services/repair/water-heater</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/services/repair/water-line</loc>
+    <loc>https://fresno.plumbing/services/repair/water-line</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
