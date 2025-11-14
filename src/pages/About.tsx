@@ -1,0 +1,148 @@
+import { BottomNav } from "@/components/BottomNav";
+import { EmergencyButton } from "@/components/EmergencyButton";
+import { Button } from "@/components/ui/button";
+import { Shield, Users, Award, Clock, ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
+const About = () => {
+  const navigate = useNavigate();
+
+  return (
+    <div className="min-h-screen pb-20 animate-fade-in">
+      <div className="max-w-lg mx-auto px-4 py-6">
+        {/* Header */}
+        <div className="flex items-center gap-4 mb-6">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => navigate(-1)}
+            className="tap-scale"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </Button>
+          <div>
+            <h1 className="text-3xl font-bold">About Us</h1>
+            <p className="text-sm text-muted-foreground">Since 1945</p>
+          </div>
+        </div>
+
+        {/* Hero Section */}
+        <div className="gradient-primary p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
+          <h2 className="text-2xl font-bold">79 Years of Excellence</h2>
+          <p className="text-sm opacity-90">
+            Fresno Plumbing & Heating, Inc. has been serving the Central Valley since 1945, 
+            providing top-quality plumbing services to residential, commercial, and industrial clients.
+          </p>
+        </div>
+
+        {/* Stats */}
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="glass-card p-6 text-center">
+            <div className="text-3xl font-bold text-primary mb-1">79+</div>
+            <div className="text-sm text-muted-foreground">Years in Business</div>
+          </div>
+          <div className="glass-card p-6 text-center">
+            <div className="text-3xl font-bold text-primary mb-1">1000s</div>
+            <div className="text-sm text-muted-foreground">Projects Completed</div>
+          </div>
+        </div>
+
+        {/* Why Choose Us */}
+        <div className="space-y-4 mb-8">
+          <h2 className="text-2xl font-bold">Why Choose Us</h2>
+          
+          <div className="glass-card p-6 space-y-4">
+            <div className="flex items-start gap-4">
+              <div className="rounded-2xl gradient-primary p-3">
+                <Shield className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">Licensed & Certified</h3>
+                <p className="text-sm text-muted-foreground">
+                  Fully licensed, bonded, and insured. Medical gas certified for healthcare facilities.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="rounded-2xl gradient-primary p-3">
+                <Users className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">Expert Team</h3>
+                <p className="text-sm text-muted-foreground">
+                  Our experienced technicians receive ongoing training in the latest plumbing technologies.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="rounded-2xl gradient-primary p-3">
+                <Clock className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">24/7 Availability</h3>
+                <p className="text-sm text-muted-foreground">
+                  Round-the-clock emergency service for when you need us most.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="rounded-2xl gradient-primary p-3">
+                <Award className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">Quality Guarantee</h3>
+                <p className="text-sm text-muted-foreground">
+                  We stand behind our work with comprehensive warranties and guarantees.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Service Areas */}
+        <div className="space-y-4 mb-8">
+          <h2 className="text-2xl font-bold">We Serve</h2>
+          <div className="glass-card p-6 space-y-3">
+            <h3 className="font-semibold">Residential</h3>
+            <p className="text-sm text-muted-foreground">
+              Complete plumbing solutions for homes including repairs, installations, and upgrades.
+            </p>
+          </div>
+          <div className="glass-card p-6 space-y-3">
+            <h3 className="font-semibold">Commercial</h3>
+            <p className="text-sm text-muted-foreground">
+              Schools, hospitals, offices, and retail spaces throughout Central Valley.
+            </p>
+          </div>
+          <div className="glass-card p-6 space-y-3">
+            <h3 className="font-semibold">Industrial</h3>
+            <p className="text-sm text-muted-foreground">
+              Large-scale plumbing systems for manufacturing and industrial facilities.
+            </p>
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="gradient-accent p-6 rounded-2xl text-white space-y-3">
+          <h3 className="text-xl font-bold">Get in Touch</h3>
+          <p className="text-sm opacity-90">
+            Experience the difference that 79 years of expertise makes.
+          </p>
+          <a href="tel:+15592752535">
+            <Button size="lg" className="w-full bg-white text-emergency hover:bg-white/90 tap-scale">
+              Call (559) 275-2535
+            </Button>
+          </a>
+        </div>
+      </div>
+
+      <EmergencyButton />
+      <BottomNav />
+    </div>
+  );
+};
+
+export default About;
