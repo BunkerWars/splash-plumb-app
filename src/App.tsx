@@ -23,6 +23,18 @@ import WaterFiltration from "./pages/services/installation/WaterFiltration";
 import WaterSoftener from "./pages/services/installation/WaterSoftener";
 import GasLine from "./pages/services/installation/GasLine";
 import Repiping from "./pages/services/installation/Repiping";
+import Repair from "./pages/services/Repair";
+import FaucetRepair from "./pages/services/repair/Faucet";
+import ToiletRepair from "./pages/services/repair/Toilet";
+import PipeRepair from "./pages/services/repair/Pipe";
+import WaterHeaterRepair from "./pages/services/repair/WaterHeater";
+import GarbageDisposalRepair from "./pages/services/repair/GarbageDisposal";
+import ShowerHeadRepair from "./pages/services/repair/ShowerHead";
+import OutdoorFaucetRepair from "./pages/services/repair/OutdoorFaucet";
+import SewerLineRepair from "./pages/services/repair/SewerLine";
+import DrainRepair from "./pages/services/repair/Drain";
+import WaterLineRepair from "./pages/services/repair/WaterLine";
+import GasLineRepair from "./pages/services/repair/GasLine";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +61,18 @@ const App = () => (
           <Route path="/services/installation/water-softener" element={<WaterSoftener />} />
           <Route path="/services/installation/gas-line" element={<GasLine />} />
           <Route path="/services/installation/pipes-repiping" element={<Repiping />} />
+          <Route path="/services/repair" element={<Repair />} />
+          <Route path="/services/repair/faucet" element={<FaucetRepair />} />
+          <Route path="/services/repair/toilet" element={<ToiletRepair />} />
+          <Route path="/services/repair/pipe" element={<PipeRepair />} />
+          <Route path="/services/repair/water-heater" element={<WaterHeaterRepair />} />
+          <Route path="/services/repair/garbage-disposal" element={<GarbageDisposalRepair />} />
+          <Route path="/services/repair/shower-head" element={<ShowerHeadRepair />} />
+          <Route path="/services/repair/outdoor-faucet" element={<OutdoorFaucetRepair />} />
+          <Route path="/services/repair/sewer-line" element={<SewerLineRepair />} />
+          <Route path="/services/repair/drain" element={<DrainRepair />} />
+          <Route path="/services/repair/water-line" element={<WaterLineRepair />} />
+          <Route path="/services/repair/gas-line" element={<GasLineRepair />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/about" element={<About />} />
