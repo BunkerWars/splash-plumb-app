@@ -12,7 +12,7 @@ const GasLine = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Gas Line Repair Fresno, CA | Emergency Gas Leak Fixes | Certified Technicians</title>
-        <meta name="description" content="Emergency gas line repair in Fresno: gas leaks, damaged lines, safety inspections. 24/7 certified technicians, licensed, insured. 79 years serving Central Valley. Call (559) 275-2535 NOW!" />
+        <meta name="description" content="Emergency gas line repair in Fresno: gas leaks, damaged lines, safety inspections. 24/7 certified technicians, licensed, insured. 79 years serving Central Valley. Call (559) 292-4065 NOW!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -39,7 +39,7 @@ const GasLine = () => {
             Gas leaks are extremely dangerous and require immediate professional attention. Our licensed technicians provide 24/7 emergency gas line repair, leak detection, and line replacement. All work meets strict safety codes.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-emergency text-white hover:bg-emergency/90 tap-scale font-semibold">Emergency Call</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Service</Button>
@@ -186,9 +186,9 @@ const GasLine = () => {
           <p className="text-sm opacity-90">
             24/7 emergency gas line repair. Licensed, certified technicians. Your safety is our priority!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-white text-emergency hover:bg-white/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>
