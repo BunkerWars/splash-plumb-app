@@ -13,6 +13,7 @@ const WaterLine = () => {
       <Helmet>
         <title>Water Line Repair Fresno, CA | Main & Supply Line Fixes | Emergency Service</title>
         <meta name="description" content="Water line repair in Fresno: main line breaks, supply line leaks, low pressure fixes. Fast emergency repairs, licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/water-line" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

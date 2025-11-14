@@ -13,6 +13,7 @@ const GarbageDisposal = () => {
       <Helmet>
         <title>Garbage Disposal Repair Fresno, CA | Fix Jams, Leaks & Motor Issues</title>
         <meta name="description" content="Garbage disposal repair in Fresno: jammed disposals, leaks, motor problems, stuck blades. All brands serviced. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/garbage-disposal" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

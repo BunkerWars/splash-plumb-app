@@ -13,6 +13,7 @@ const WaterSoftener = () => {
       <Helmet>
         <title>Water Softener Installation Fresno, CA | Combat Hard Water | Expert Plumbers</title>
         <meta name="description" content="Water softener installation in Fresno: protect appliances from hard water damage, reduce scale buildup. Licensed plumbers, quality systems, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/water-softener" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

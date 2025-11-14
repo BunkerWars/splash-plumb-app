@@ -13,6 +13,7 @@ const ShowerHead = () => {
       <Helmet>
         <title>Shower Head Installation Fresno, CA | Modern, Water-Efficient Upgrades</title>
         <meta name="description" content="Shower head installation in Fresno: rain heads, handheld, water-efficient models. Professional installation, licensed plumbers, 79 years experience. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/shower-head" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

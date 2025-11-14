@@ -13,6 +13,7 @@ const WaterHeaters = () => {
       <Helmet>
         <title>Water Heater Installation & Repair Fresno, CA | Tank & Tankless | Expert Service</title>
         <meta name="description" content="Water heater services in Fresno: tank & tankless installation, repairs, maintenance. No hot water? We fix it fast! Licensed plumbers, 79 years serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/water-heaters" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

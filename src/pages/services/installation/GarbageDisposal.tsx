@@ -13,6 +13,7 @@ const GarbageDisposal = () => {
       <Helmet>
         <title>Garbage Disposal Installation Fresno, CA | Expert Hookup & Replacement</title>
         <meta name="description" content="Garbage disposal installation in Fresno: all brands, proper electrical hookup, InSinkErator certified. Licensed plumbers, 79 years experience. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/garbage-disposal" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

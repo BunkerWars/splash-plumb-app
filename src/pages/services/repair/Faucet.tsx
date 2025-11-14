@@ -13,6 +13,7 @@ const Faucet = () => {
       <Helmet>
         <title>Faucet Repair Fresno, CA | Fix Leaks, Drips & Handle Issues Fast</title>
         <meta name="description" content="Faucet repair in Fresno: fix leaks, drips, low pressure, broken handles. Kitchen & bathroom faucets. Licensed plumbers, same-day service, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/faucet" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

@@ -13,6 +13,7 @@ const WaterFiltration = () => {
       <Helmet>
         <title>Water Filtration System Installation Fresno, CA | Clean Water Solutions</title>
         <meta name="description" content="Water filtration system installation in Fresno: whole-home filters, under-sink systems, reverse osmosis. Clean, safe water for Central Valley homes. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/water-filtration" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

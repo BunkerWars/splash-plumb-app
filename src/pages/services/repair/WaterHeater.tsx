@@ -13,6 +13,7 @@ const WaterHeater = () => {
       <Helmet>
         <title>Water Heater Repair Fresno, CA | No Hot Water? Fast Fixes | Licensed Plumbers</title>
         <meta name="description" content="Water heater repair in Fresno: no hot water, strange noises, leaks, pilot light issues. Fast repairs for tank & tankless units. 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/water-heater" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

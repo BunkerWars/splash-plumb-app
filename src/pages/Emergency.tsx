@@ -13,6 +13,7 @@ const Emergency = () => {
       <Helmet>
         <title>24/7 Emergency Plumber Fresno, CA | Fast Response | Call (559) 292-4065</title>
         <meta name="description" content="Emergency plumber in Fresno, CA available 24/7. Fast 45-min response for burst pipes, leaks, sewage backups & more. Licensed plumbers serving Central Valley. Call now: (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/emergency" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

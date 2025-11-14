@@ -67,6 +67,7 @@ const Maintenance = () => {
       <Helmet>
         <title>Plumbing Maintenance Services Fresno, CA | Prevent Costly Repairs</title>
         <meta name="description" content="Preventive plumbing maintenance in Fresno: drain cleaning, water heater service, sewer line cleaning, backflow testing & more. Save money, avoid emergencies. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/maintenance" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

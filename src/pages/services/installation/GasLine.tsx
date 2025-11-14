@@ -13,6 +13,7 @@ const GasLine = () => {
       <Helmet>
         <title>Gas Line Installation Fresno, CA | Safe, Certified Service | Licensed Plumbers</title>
         <meta name="description" content="Gas line installation in Fresno: stoves, dryers, water heaters, BBQs. Licensed, certified technicians ensuring safety. 79 years experience serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/gas-line" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

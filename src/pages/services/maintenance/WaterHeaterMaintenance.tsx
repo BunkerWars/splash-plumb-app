@@ -13,6 +13,7 @@ const WaterHeaterMaintenance = () => {
       <Helmet>
         <title>Water Heater Maintenance Fresno, CA | Annual Service & Flushing</title>
         <meta name="description" content="Water heater maintenance in Fresno: annual flushing, inspection, anode rod replacement. Extend lifespan, prevent breakdowns. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/maintenance/water-heater-maintenance" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

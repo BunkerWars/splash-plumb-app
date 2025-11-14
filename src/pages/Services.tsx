@@ -82,6 +82,7 @@ const Services = () => {
       <Helmet>
         <title>Plumbing Services in Fresno & Central Valley, CA | Installation, Repair & Maintenance</title>
         <meta name="description" content="Complete plumbing services in Fresno, CA: installation, repair, maintenance, leak detection, water heaters, drain cleaning & more. 79 years serving Central Valley. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}

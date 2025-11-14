@@ -13,6 +13,7 @@ const KitchenSink = () => {
       <Helmet>
         <title>Kitchen Sink Installation Fresno, CA | Professional Plumbing Connections</title>
         <meta name="description" content="Kitchen sink installation in Fresno: undermount, drop-in, farmhouse sinks. Expert plumbing connections, licensed installers, 79 years experience. Free estimates. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/installation/kitchen-sink" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">

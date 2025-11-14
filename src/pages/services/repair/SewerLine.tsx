@@ -13,6 +13,7 @@ const SewerLine = () => {
       <Helmet>
         <title>Sewer Line Repair Fresno, CA | Fix Backups, Breaks & Root Intrusion</title>
         <meta name="description" content="Sewer line repair in Fresno: backups, breaks, root damage, collapsed lines. Video inspection, trenchless repair options. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
+        <link rel="canonical" href="https://fresno.plumbing/services/repair/sewer-line" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
