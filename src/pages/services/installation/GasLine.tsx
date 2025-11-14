@@ -12,7 +12,7 @@ const GasLine = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Gas Line Installation Fresno, CA | Safe, Certified Service | Licensed Plumbers</title>
-        <meta name="description" content="Gas line installation in Fresno: stoves, dryers, water heaters, BBQs. Licensed, certified technicians ensuring safety. 79 years experience serving Central Valley. Call (559) 275-2535!" />
+        <meta name="description" content="Gas line installation in Fresno: stoves, dryers, water heaters, BBQs. Licensed, certified technicians ensuring safety. 79 years experience serving Central Valley. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -39,7 +39,7 @@ const GasLine = () => {
             Safe, code-compliant gas line installation for all your natural gas appliances. Our certified technicians ensure proper sizing, routing, and testing for complete safety and optimal performance.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -177,9 +177,9 @@ const GasLine = () => {
           <p className="text-sm opacity-90">
             Certified gas line installation and repair. Safety guaranteed. Call us today for a free estimate.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

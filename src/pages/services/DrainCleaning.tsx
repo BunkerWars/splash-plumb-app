@@ -12,7 +12,7 @@ const DrainCleaning = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Drain Cleaning Fresno, CA | Clogged Drains, Sewer Lines | Fast Service</title>
-        <meta name="description" content="Professional drain cleaning in Fresno: kitchen sinks, toilets, showers, main sewer lines. Hydro-jetting, video inspection. Clogged drain? We clear it fast! Call (559) 275-2535!" />
+        <meta name="description" content="Professional drain cleaning in Fresno: kitchen sinks, toilets, showers, main sewer lines. Hydro-jetting, video inspection. Clogged drain? We clear it fast! Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -38,7 +38,7 @@ const DrainCleaning = () => {
             With 79+ years of experience, we solve slow drains, complete blockages, and persistent clogs using advanced technology and proven techniques.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
                 Call Now
               </Button>
@@ -190,9 +190,9 @@ const DrainCleaning = () => {
           <p className="text-sm opacity-90">
             Don't let a clogged drain disrupt your day. Call us now for fast, professional service.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

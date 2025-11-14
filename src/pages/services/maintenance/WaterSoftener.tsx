@@ -26,7 +26,7 @@ const WaterSoftener = () => {
             Regular maintenance keeps your water softener working efficiently and extends its lifespan. We clean the brine tank, check resin beds, calibrate settings, and ensure you're getting the soft water you deserve. Salt delivery available!
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Service</Button>
@@ -200,9 +200,9 @@ const WaterSoftener = () => {
           <p className="text-sm opacity-90">
             Keep your water soft and your system efficient. Annual maintenance saves money on salt and repairs!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

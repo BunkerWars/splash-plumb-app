@@ -26,7 +26,7 @@ const GarbageDisposal = () => {
             A well-maintained garbage disposal lasts 10-15 years! Our service includes professional cleaning, blade sharpening, seal inspection, and motor testing to keep your disposal grinding efficiently and odor-free.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Service</Button>
@@ -182,9 +182,9 @@ const GarbageDisposal = () => {
           <p className="text-sm opacity-90">
             Keep your garbage disposal grinding strong! Annual maintenance prevents problems and odors.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

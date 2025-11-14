@@ -12,7 +12,7 @@ const WaterSoftener = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Water Softener Installation Fresno, CA | Combat Hard Water | Expert Plumbers</title>
-        <meta name="description" content="Water softener installation in Fresno: protect appliances from hard water damage, reduce scale buildup. Licensed plumbers, quality systems, 79 years experience. Call (559) 275-2535!" />
+        <meta name="description" content="Water softener installation in Fresno: protect appliances from hard water damage, reduce scale buildup. Licensed plumbers, quality systems, 79 years experience. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const WaterSoftener = () => {
             Protect your plumbing, appliances, and fixtures from hard water damage. Our licensed plumbers install high-quality water softener systems that eliminate scale buildup, extend appliance life, and provide softer water throughout your home.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -157,9 +157,9 @@ const WaterSoftener = () => {
           <p className="text-sm opacity-90">
             Professional water softener installation with free water hardness test. Call us today!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

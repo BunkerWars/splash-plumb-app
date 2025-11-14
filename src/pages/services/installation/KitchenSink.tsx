@@ -12,7 +12,7 @@ const KitchenSink = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Kitchen Sink Installation Fresno, CA | Professional Plumbing Connections</title>
-        <meta name="description" content="Kitchen sink installation in Fresno: undermount, drop-in, farmhouse sinks. Expert plumbing connections, licensed installers, 79 years experience. Free estimates. Call (559) 275-2535!" />
+        <meta name="description" content="Kitchen sink installation in Fresno: undermount, drop-in, farmhouse sinks. Expert plumbing connections, licensed installers, 79 years experience. Free estimates. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const KitchenSink = () => {
             Upgrade your kitchen with a new sink installation. From undermount to farmhouse styles, our licensed plumbers ensure proper mounting, sealing, and plumbing connections for leak-free operation.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -137,9 +137,9 @@ const KitchenSink = () => {
           <p className="text-sm opacity-90">
             Professional installation with warranty. We'll help you choose the perfect sink for your kitchen.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

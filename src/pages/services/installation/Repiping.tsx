@@ -12,7 +12,7 @@ const Repiping = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Repiping Services Fresno, CA | Complete Pipe Replacement | Copper & PEX</title>
-        <meta name="description" content="Whole-home repiping in Fresno: copper, PEX pipes, corroded pipe replacement. Stop leaks permanently! Licensed plumbers, 79 years experience. Free estimates. Call (559) 275-2535!" />
+        <meta name="description" content="Whole-home repiping in Fresno: copper, PEX pipes, corroded pipe replacement. Stop leaks permanently! Licensed plumbers, 79 years experience. Free estimates. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const Repiping = () => {
             Replace old, corroded pipes with modern, durable materials. Our expert repiping services eliminate leaks, improve water pressure, and provide clean, reliable plumbing for decades to come.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -191,9 +191,9 @@ const Repiping = () => {
           <p className="text-sm opacity-90">
             Professional repiping with warranty. Get a free in-home estimate today!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

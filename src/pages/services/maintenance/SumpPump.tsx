@@ -26,7 +26,7 @@ const SumpPump = () => {
             Don't discover your sump pump failed during a flood! Regular maintenance ensures your pump works when you need it most. We test, clean, and inspect all components to prevent basement flooding and water damage.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Service</Button>
@@ -170,9 +170,9 @@ const SumpPump = () => {
           <p className="text-sm opacity-90">
             Protect your basement from flooding. Annual sump pump maintenance ensures it works when needed!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

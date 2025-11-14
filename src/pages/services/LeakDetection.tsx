@@ -12,7 +12,7 @@ const LeakDetection = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Leak Detection Services Fresno, CA | Find Hidden Leaks Fast | Advanced Technology</title>
-        <meta name="description" content="Professional leak detection in Fresno using advanced technology. Find slab leaks, pipe leaks, sewer leaks & gas leaks before they cause damage. 79 years experience. Call (559) 275-2535!" />
+        <meta name="description" content="Professional leak detection in Fresno using advanced technology. Find slab leaks, pipe leaks, sewer leaks & gas leaks before they cause damage. 79 years experience. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const LeakDetection = () => {
             Hidden leaks can cause thousands in damage. Our advanced leak detection technology finds problems before they become disasters, saving you money and preventing property damage.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -139,9 +139,9 @@ const LeakDetection = () => {
           <p className="text-sm opacity-90">
             Early detection saves thousands in damage. Call now for professional leak detection.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

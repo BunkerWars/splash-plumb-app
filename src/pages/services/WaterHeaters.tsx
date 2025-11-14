@@ -12,7 +12,7 @@ const WaterHeaters = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Water Heater Installation & Repair Fresno, CA | Tank & Tankless | Expert Service</title>
-        <meta name="description" content="Water heater services in Fresno: tank & tankless installation, repairs, maintenance. No hot water? We fix it fast! Licensed plumbers, 79 years serving Central Valley. Call (559) 275-2535!" />
+        <meta name="description" content="Water heater services in Fresno: tank & tankless installation, repairs, maintenance. No hot water? We fix it fast! Licensed plumbers, 79 years serving Central Valley. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -38,7 +38,7 @@ const WaterHeaters = () => {
             From traditional tank water heaters to modern tankless systems, our certified technicians provide professional installation, repair, and maintenance services throughout Central Valley.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
                 Call Now
               </Button>
@@ -185,9 +185,9 @@ const WaterHeaters = () => {
           <p className="text-sm opacity-90">
             Whether you need a new installation or emergency repair, our expert team is ready to help.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

@@ -84,7 +84,7 @@ const Installation = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Plumbing Installation Services Fresno, CA | Faucets, Toilets, Water Heaters & More</title>
-        <meta name="description" content="Expert plumbing installation in Fresno: faucets, toilets, water heaters, dishwashers, garbage disposals, sinks & repiping. Licensed installers, 79 years experience. Call (559) 275-2535!" />
+        <meta name="description" content="Expert plumbing installation in Fresno: faucets, toilets, water heaters, dishwashers, garbage disposals, sinks & repiping. Licensed installers, 79 years experience. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -110,7 +110,7 @@ const Installation = () => {
             From simple faucet upgrades to complete repiping projects, our licensed technicians ensure every installation meets code and exceeds expectations. With 79+ years of experience, we handle all residential and commercial installations.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
                 Call Now
               </Button>
@@ -191,9 +191,9 @@ const Installation = () => {
           <p className="text-sm opacity-90">
             Get professional installation with guaranteed workmanship. Call us today for a free estimate.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

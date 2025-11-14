@@ -81,7 +81,7 @@ const Services = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Plumbing Services in Fresno & Central Valley, CA | Installation, Repair & Maintenance</title>
-        <meta name="description" content="Complete plumbing services in Fresno, CA: installation, repair, maintenance, leak detection, water heaters, drain cleaning & more. 79 years serving Central Valley. Call (559) 275-2535!" />
+        <meta name="description" content="Complete plumbing services in Fresno, CA: installation, repair, maintenance, leak detection, water heaters, drain cleaning & more. 79 years serving Central Valley. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -123,9 +123,9 @@ const Services = () => {
           <p className="text-sm text-muted-foreground">
             Contact us directly and we'll help you with any plumbing needs.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

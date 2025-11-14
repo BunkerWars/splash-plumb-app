@@ -12,7 +12,7 @@ const Dishwasher = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Dishwasher Installation Fresno, CA | Complete Hookup & Replacement Service</title>
-        <meta name="description" content="Dishwasher installation in Fresno: all brands, proper connections, water & electrical hookup. Licensed plumbers serving Central Valley for 79 years. Free estimates. Call (559) 275-2535!" />
+        <meta name="description" content="Dishwasher installation in Fresno: all brands, proper connections, water & electrical hookup. Licensed plumbers serving Central Valley for 79 years. Free estimates. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const Dishwasher = () => {
             Professional dishwasher installation with proper water supply, drainage, and electrical connections. We ensure your dishwasher is level, secure, and leak-free for years of reliable operation.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -149,9 +149,9 @@ const Dishwasher = () => {
           <p className="text-sm opacity-90">
             Professional dishwasher installation with warranty. We handle all connections and testing.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>
