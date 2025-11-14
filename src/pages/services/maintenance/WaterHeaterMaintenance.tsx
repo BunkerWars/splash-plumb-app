@@ -12,7 +12,7 @@ const WaterHeaterMaintenance = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Water Heater Maintenance Fresno, CA | Annual Service & Flushing</title>
-        <meta name="description" content="Water heater maintenance in Fresno: annual flushing, inspection, anode rod replacement. Extend lifespan, prevent breakdowns. Licensed plumbers, 79 years experience. Call (559) 275-2535!" />
+        <meta name="description" content="Water heater maintenance in Fresno: annual flushing, inspection, anode rod replacement. Extend lifespan, prevent breakdowns. Licensed plumbers, 79 years experience. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const WaterHeaterMaintenance = () => {
             Regular maintenance extends your water heater's life from 8-10 years to 12-15+ years! Our annual service includes flushing sediment, checking all components, and catching small issues before they become expensive repairs.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Service</Button>
@@ -207,9 +207,9 @@ const WaterHeaterMaintenance = () => {
           <p className="text-sm opacity-90">
             Extend your water heater's life and save on energy bills. Annual service keeps it running strong!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

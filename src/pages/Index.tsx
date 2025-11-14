@@ -53,7 +53,7 @@ const Index = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Fresno Plumbing - Expert Plumbers in Fresno, CA Since 1945 | 24/7 Emergency Service</title>
-        <meta name="description" content="Trusted Fresno plumbing company serving Central Valley for 79+ years. Licensed plumbers offer 24/7 emergency service, leak detection, water heaters, drain cleaning & more. Call (559) 275-2535!" />
+        <meta name="description" content="Trusted Fresno plumbing company serving Central Valley for 79+ years. Licensed plumbers offer 24/7 emergency service, leak detection, water heaters, drain cleaning & more. Call (559) 292-4065!" />
       </Helmet>
       <Hero />
 
@@ -101,9 +101,9 @@ const Index = () => {
           <p className="text-sm opacity-90">
             Our team is ready 24/7 to handle your plumbing emergencies
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <button className="w-full bg-gold text-navy py-3 rounded-xl font-semibold tap-scale hover:scale-105 transition-transform hover:bg-gold/90">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </button>
           </a>
         </div>

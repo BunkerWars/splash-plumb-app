@@ -83,7 +83,7 @@ const Repair = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Plumbing Repair Services Fresno, CA | Fix Leaks, Pipes, Toilets & Water Heaters</title>
-        <meta name="description" content="Fast plumbing repairs in Fresno: leaky faucets, burst pipes, toilets, water heaters, drains, sewer lines & more. 24/7 emergency repairs, licensed plumbers. Call (559) 275-2535!" />
+        <meta name="description" content="Fast plumbing repairs in Fresno: leaky faucets, burst pipes, toilets, water heaters, drains, sewer lines & more. 24/7 emergency repairs, licensed plumbers. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -109,7 +109,7 @@ const Repair = () => {
             From minor drips to emergency pipe bursts, our licensed technicians diagnose and repair all plumbing issues quickly and correctly. With 79+ years of experience, we provide lasting solutions, not temporary fixes.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
                 Call Now
               </Button>
@@ -189,9 +189,9 @@ const Repair = () => {
           <p className="text-sm opacity-90">
             Fast, professional repairs with guaranteed workmanship. Call us today!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

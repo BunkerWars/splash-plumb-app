@@ -66,7 +66,7 @@ const Maintenance = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Plumbing Maintenance Services Fresno, CA | Prevent Costly Repairs</title>
-        <meta name="description" content="Preventive plumbing maintenance in Fresno: drain cleaning, water heater service, sewer line cleaning, backflow testing & more. Save money, avoid emergencies. Call (559) 275-2535!" />
+        <meta name="description" content="Preventive plumbing maintenance in Fresno: drain cleaning, water heater service, sewer line cleaning, backflow testing & more. Save money, avoid emergencies. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -92,7 +92,7 @@ const Maintenance = () => {
             Regular plumbing maintenance saves you money by preventing costly repairs and extending the life of your fixtures. Our 79+ years of experience means we know exactly what to check and when.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
                 Call Now
               </Button>
@@ -175,9 +175,9 @@ const Maintenance = () => {
           <p className="text-sm opacity-90">
             Don't wait for problems to happen. Preventive maintenance keeps your plumbing running smoothly!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

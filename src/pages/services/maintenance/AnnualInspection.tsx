@@ -26,7 +26,7 @@ const AnnualInspection = () => {
             Catch problems early with an annual plumbing inspection! Our experienced technicians check every aspect of your home's plumbing system, identifying potential issues before they become expensive emergencies. Get peace of mind knowing your plumbing is in top shape.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Inspection</Button>
@@ -192,9 +192,9 @@ const AnnualInspection = () => {
           <p className="text-sm opacity-90">
             Protect your home with an annual plumbing inspection. Find problems early and save thousands!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

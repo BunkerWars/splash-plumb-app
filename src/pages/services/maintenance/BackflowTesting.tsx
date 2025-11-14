@@ -26,7 +26,7 @@ const BackflowTesting = () => {
             Backflow prevention devices protect your drinking water from contamination. Annual testing is required by law and ensures your backflow preventer is working properly. We're certified to test, repair, and install all types of backflow devices.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Schedule Testing</Button>
@@ -191,9 +191,9 @@ const BackflowTesting = () => {
           <p className="text-sm opacity-90">
             Stay compliant and protect your water supply. Certified testing and same-day reports filed!
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

@@ -12,7 +12,7 @@ const WaterFiltration = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Water Filtration System Installation Fresno, CA | Clean Water Solutions</title>
-        <meta name="description" content="Water filtration system installation in Fresno: whole-home filters, under-sink systems, reverse osmosis. Clean, safe water for Central Valley homes. Call (559) 275-2535!" />
+        <meta name="description" content="Water filtration system installation in Fresno: whole-home filters, under-sink systems, reverse osmosis. Clean, safe water for Central Valley homes. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const WaterFiltration = () => {
             Enjoy cleaner, healthier water throughout your home. We install comprehensive water filtration systems that remove contaminants, improve taste, and protect your plumbing fixtures from sediment and mineral buildup.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -169,9 +169,9 @@ const WaterFiltration = () => {
           <p className="text-sm opacity-90">
             Professional water filtration installation. We'll help you choose the right system for your needs.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

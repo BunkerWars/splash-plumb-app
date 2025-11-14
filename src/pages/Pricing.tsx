@@ -12,7 +12,7 @@ const Pricing = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Plumbing Prices in Fresno, CA | Transparent Pricing | Free Estimates</title>
-        <meta name="description" content="Upfront plumbing prices in Fresno, CA. No hidden fees. Get free estimates on drain cleaning, water heaters, repairs & more. Senior & military discounts. Call (559) 275-2535!" />
+        <meta name="description" content="Upfront plumbing prices in Fresno, CA. No hidden fees. Get free estimates on drain cleaning, water heaters, repairs & more. Senior & military discounts. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -199,9 +199,9 @@ const Pricing = () => {
           <p className="text-sm opacity-90">
             Call us today for an accurate, no-obligation quote on your plumbing project.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

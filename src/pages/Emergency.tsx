@@ -11,8 +11,8 @@ const Emergency = () => {
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
-        <title>24/7 Emergency Plumber Fresno, CA | Fast Response | Call (559) 275-2535</title>
-        <meta name="description" content="Emergency plumber in Fresno, CA available 24/7. Fast 45-min response for burst pipes, leaks, sewage backups & more. Licensed plumbers serving Central Valley. Call now: (559) 275-2535!" />
+        <title>24/7 Emergency Plumber Fresno, CA | Fast Response | Call (559) 292-4065</title>
+        <meta name="description" content="Emergency plumber in Fresno, CA available 24/7. Fast 45-min response for burst pipes, leaks, sewage backups & more. Licensed plumbers serving Central Valley. Call now: (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
@@ -40,7 +40,7 @@ const Emergency = () => {
           <p className="text-sm opacity-90">
             Plumbing emergencies don't wait for business hours. Our team is ready 24/7 to respond to your urgent needs.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button size="lg" className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
               <Phone className="mr-2 h-5 w-5" />
               Call Emergency Line

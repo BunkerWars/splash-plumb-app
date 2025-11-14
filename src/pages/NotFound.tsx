@@ -13,7 +13,7 @@ const NotFound = () => {
     <div className="flex min-h-screen items-center justify-center bg-muted">
       <Helmet>
         <title>404 Page Not Found | Fresno Plumbing</title>
-        <meta name="description" content="Page not found. Return to Fresno Plumbing home page for expert plumbing services in Central Valley, CA. Call (559) 275-2535 for 24/7 emergency service." />
+        <meta name="description" content="Page not found. Return to Fresno Plumbing home page for expert plumbing services in Central Valley, CA. Call (559) 292-4065 for 24/7 emergency service." />
       </Helmet>
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">404</h1>

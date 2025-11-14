@@ -12,7 +12,7 @@ const Faucet = () => {
     <div className="min-h-screen pb-20 animate-fade-in">
       <Helmet>
         <title>Faucet Installation Fresno, CA | Kitchen & Bathroom Faucets | Expert Plumbers</title>
-        <meta name="description" content="Professional faucet installation in Fresno: kitchen sinks, bathroom vanities, all brands. Licensed plumbers, quality fixtures, 79 years experience. Free estimates. Call (559) 275-2535!" />
+        <meta name="description" content="Professional faucet installation in Fresno: kitchen sinks, bathroom vanities, all brands. Licensed plumbers, quality fixtures, 79 years experience. Free estimates. Call (559) 292-4065!" />
       </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
@@ -31,7 +31,7 @@ const Faucet = () => {
             Upgrade your kitchen or bathroom with a new faucet. Our expert plumbers handle all types of faucet installations, from single-handle to touchless models, ensuring proper connections and leak-free operation.
           </p>
           <div className="flex gap-2">
-            <a href="tel:+15592752535" className="flex-1">
+            <a href="tel:+15592924065" className="flex-1">
               <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">Call Now</Button>
             </a>
             <Button variant="outline" className="flex-1 border-navy/20 text-navy tap-scale">Get Quote</Button>
@@ -153,9 +153,9 @@ const Faucet = () => {
           <p className="text-sm opacity-90">
             Professional installation with warranty. Call us today for a free estimate.
           </p>
-          <a href="tel:+15592752535">
+          <a href="tel:+15592924065">
             <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
-              Call (559) 275-2535
+              Call (559) 292-4065
             </Button>
           </a>
         </div>

@@ -33,7 +33,7 @@ export const Hero = () => {
 
         {/* Quick Actions */}
         <div className="grid grid-cols-2 gap-3">
-          <a href="tel:+15592752535" className="block">
+          <a href="tel:+15592924065" className="block">
             <Button size="lg" className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale shadow-lg font-semibold">
               <Phone className="mr-2 h-5 w-5" />
               Call Now
