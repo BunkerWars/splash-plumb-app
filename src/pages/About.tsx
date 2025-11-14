@@ -2,7 +2,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
-import { Shield, Users, Award, Clock, ArrowLeft } from "lucide-react";
+import { Shield, Users, Award, Clock, ArrowLeft, Youtube, Facebook, Instagram, Linkedin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
@@ -128,6 +128,48 @@ const About = () => {
             <p className="text-sm text-muted-foreground">
               Large-scale plumbing systems for manufacturing and industrial facilities.
             </p>
+          </div>
+        </div>
+
+        {/* Social Media */}
+        <div className="space-y-4 mb-8">
+          <h2 className="text-2xl font-bold text-navy">Connect With Us</h2>
+          <div className="glass-card p-6">
+            <p className="text-sm text-muted-foreground mb-4">
+              Follow us on social media for tips, updates, and plumbing insights!
+            </p>
+            <div className="flex gap-3">
+              <a
+                href="https://www.youtube.com/@Fresno.Plumbing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
+                aria-label="YouTube"
+              >
+                <Youtube className="h-5 w-5" />
+              </a>
+              <a
+                href="#"
+                className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a
+                href="#"
+                className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="#"
+                className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </div>
 
