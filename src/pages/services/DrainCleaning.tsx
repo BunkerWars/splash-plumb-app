@@ -15,7 +15,7 @@ const DrainCleaning = () => {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate('/services')}
             className="tap-scale"
           >
             <ArrowLeft className="h-5 w-5" />

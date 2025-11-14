@@ -87,7 +87,7 @@ const Installation = () => {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate('/services')}
             className="tap-scale"
           >
             <ArrowLeft className="h-5 w-5" />
@@ -121,7 +121,22 @@ const Installation = () => {
           <h2 className="text-2xl font-bold text-navy mb-4">What Do You Need to Install?</h2>
           <div className="space-y-3 animate-slide-up">
             {installationServices.map((service, index) => {
-              const slug = service.title.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
+              // Map titles to exact route slugs
+              const slugMap: Record<string, string> = {
+                'Faucet Installation': 'faucet',
+                'Toilet Installation': 'toilet',
+                'Garbage Disposal': 'garbage-disposal',
+                'Shower Head': 'shower-head',
+                'Water Heater': 'water-heater',
+                'Dishwasher': 'dishwasher',
+                'Kitchen Sink': 'kitchen-sink',
+                'Water Filtration System': 'water-filtration-system',
+                'Water Softener': 'water-softener',
+                'Gas Line': 'gas-line',
+                'Pipes (Repiping)': 'pipes-repiping'
+              };
+              const slug = slugMap[service.title] || service.title.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
+              
               return (
                 <div key={index} style={{ animationDelay: `${index * 50}ms` }}>
                   <ServiceCard 
