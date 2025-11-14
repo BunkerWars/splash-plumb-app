@@ -21,13 +21,13 @@ const Emergency = () => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
           <div>
-            <h1 className="text-3xl font-bold">24/7 Emergency</h1>
+            <h1 className="text-3xl font-bold text-navy">24/7 Emergency</h1>
             <p className="text-sm text-muted-foreground">We're here to help</p>
           </div>
         </div>
 
         {/* Emergency Alert */}
-        <div className="gradient-accent p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
+        <div className="bg-emergency p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
           <div className="flex items-center gap-2 text-lg font-semibold">
             <Shield className="h-6 w-6" />
             <span>Emergency Service Available</span>
@@ -36,7 +36,7 @@ const Emergency = () => {
             Plumbing emergencies don't wait for business hours. Our team is ready 24/7 to respond to your urgent needs.
           </p>
           <a href="tel:+15592752535">
-            <Button size="lg" className="w-full bg-white text-emergency hover:bg-white/90 tap-scale">
+            <Button size="lg" className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
               <Phone className="mr-2 h-5 w-5" />
               Call Emergency Line
             </Button>
@@ -47,7 +47,7 @@ const Emergency = () => {
         <div className="space-y-4">
           <div className="glass-card p-6 space-y-3">
             <div className="flex items-center gap-3">
-              <div className="rounded-full gradient-primary p-3">
+              <div className="rounded-full bg-navy p-3">
                 <Clock className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -59,7 +59,7 @@ const Emergency = () => {
 
           <div className="glass-card p-6 space-y-3">
             <div className="flex items-center gap-3">
-              <div className="rounded-full gradient-primary p-3">
+              <div className="rounded-full bg-navy p-3">
                 <MapPin className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -71,7 +71,7 @@ const Emergency = () => {
 
           <div className="glass-card p-6 space-y-3">
             <div className="flex items-center gap-3">
-              <div className="rounded-full gradient-primary p-3">
+              <div className="rounded-full bg-navy p-3">
                 <Shield className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -84,7 +84,7 @@ const Emergency = () => {
 
         {/* Common Emergencies */}
         <div className="mt-8 space-y-4">
-          <h2 className="text-xl font-bold">Common Emergencies</h2>
+          <h2 className="text-xl font-bold text-navy">Common Emergencies</h2>
           <div className="space-y-2">
             {[
               "Burst pipes & flooding",
@@ -104,11 +104,11 @@ const Emergency = () => {
 
         {/* Bottom CTA */}
         <div className="mt-8 glass-card p-6 space-y-3">
-          <h3 className="font-bold">Not an emergency?</h3>
+          <h3 className="font-bold text-navy">Not an emergency?</h3>
           <p className="text-sm text-muted-foreground">
             Schedule a regular service appointment for routine maintenance and repairs.
           </p>
-          <Button variant="outline" className="w-full tap-scale">
+          <Button variant="outline" className="w-full tap-scale border-navy/20 text-navy hover:bg-navy/5">
             Schedule Appointment
           </Button>
         </div>

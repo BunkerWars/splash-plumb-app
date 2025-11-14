@@ -75,7 +75,7 @@ const Services = () => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
           <div>
-            <h1 className="text-3xl font-bold">Our Services</h1>
+            <h1 className="text-3xl font-bold text-navy">Our Services</h1>
             <p className="text-sm text-muted-foreground">Complete plumbing solutions</p>
           </div>
         </div>
@@ -91,12 +91,12 @@ const Services = () => {
 
         {/* CTA */}
         <div className="mt-8 glass-card p-6 space-y-3">
-          <h3 className="font-bold text-lg">Can't find what you need?</h3>
+          <h3 className="font-bold text-lg text-navy">Can't find what you need?</h3>
           <p className="text-sm text-muted-foreground">
             Contact us directly and we'll help you with any plumbing needs.
           </p>
           <a href="tel:+15592752535">
-            <Button className="w-full gradient-accent tap-scale">
+            <Button className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
               Call (559) 275-2535
             </Button>
           </a>

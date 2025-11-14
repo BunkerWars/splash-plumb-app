@@ -21,13 +21,13 @@ const About = () => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
           <div>
-            <h1 className="text-3xl font-bold">About Us</h1>
+            <h1 className="text-3xl font-bold text-navy">About Us</h1>
             <p className="text-sm text-muted-foreground">Since 1945</p>
           </div>
         </div>
 
         {/* Hero Section */}
-        <div className="gradient-primary p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
+        <div className="bg-navy p-8 rounded-2xl text-white space-y-4 animate-scale-in mb-6">
           <h2 className="text-2xl font-bold">79 Years of Excellence</h2>
           <p className="text-sm opacity-90">
             Fresno Plumbing & Heating, Inc. has been serving the Central Valley since 1945, 
@@ -38,22 +38,22 @@ const About = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 gap-4 mb-8">
           <div className="glass-card p-6 text-center">
-            <div className="text-3xl font-bold text-primary mb-1">79+</div>
+            <div className="text-3xl font-bold text-navy mb-1">79+</div>
             <div className="text-sm text-muted-foreground">Years in Business</div>
           </div>
           <div className="glass-card p-6 text-center">
-            <div className="text-3xl font-bold text-primary mb-1">1000s</div>
+            <div className="text-3xl font-bold text-navy mb-1">1000s</div>
             <div className="text-sm text-muted-foreground">Projects Completed</div>
           </div>
         </div>
 
         {/* Why Choose Us */}
         <div className="space-y-4 mb-8">
-          <h2 className="text-2xl font-bold">Why Choose Us</h2>
+          <h2 className="text-2xl font-bold text-navy">Why Choose Us</h2>
           
           <div className="glass-card p-6 space-y-4">
             <div className="flex items-start gap-4">
-              <div className="rounded-2xl gradient-primary p-3">
+              <div className="rounded-2xl bg-navy p-3">
                 <Shield className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -65,7 +65,7 @@ const About = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="rounded-2xl gradient-primary p-3">
+              <div className="rounded-2xl bg-navy p-3">
                 <Users className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -77,7 +77,7 @@ const About = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="rounded-2xl gradient-primary p-3">
+              <div className="rounded-2xl bg-navy p-3">
                 <Clock className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -89,7 +89,7 @@ const About = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="rounded-2xl gradient-primary p-3">
+              <div className="rounded-2xl bg-navy p-3">
                 <Award className="h-5 w-5 text-white" />
               </div>
               <div>
@@ -104,7 +104,7 @@ const About = () => {
 
         {/* Service Areas */}
         <div className="space-y-4 mb-8">
-          <h2 className="text-2xl font-bold">We Serve</h2>
+          <h2 className="text-2xl font-bold text-navy">We Serve</h2>
           <div className="glass-card p-6 space-y-3">
             <h3 className="font-semibold">Residential</h3>
             <p className="text-sm text-muted-foreground">
@@ -126,13 +126,13 @@ const About = () => {
         </div>
 
         {/* CTA */}
-        <div className="gradient-accent p-6 rounded-2xl text-white space-y-3">
+        <div className="bg-navy p-6 rounded-2xl text-white space-y-3">
           <h3 className="text-xl font-bold">Get in Touch</h3>
           <p className="text-sm opacity-90">
             Experience the difference that 79 years of expertise makes.
           </p>
           <a href="tel:+15592752535">
-            <Button size="lg" className="w-full bg-white text-emergency hover:bg-white/90 tap-scale">
+            <Button size="lg" className="w-full bg-gold text-navy hover:bg-gold/90 tap-scale font-semibold">
               Call (559) 275-2535
             </Button>
           </a>
