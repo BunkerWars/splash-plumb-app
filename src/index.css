@@ -8,80 +8,84 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 210 20% 15%;
+    --background: 210 30% 98%;
+    --foreground: 220 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 20% 15%;
+    --card-foreground: 220 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 20% 15%;
+    --popover-foreground: 220 50% 15%;
 
-    --primary: 195 85% 45%;
+    --primary: 220 55% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 30% 94%;
-    --secondary-foreground: 210 20% 15%;
+    --secondary: 210 25% 92%;
+    --secondary-foreground: 220 50% 15%;
 
-    --muted: 210 30% 94%;
-    --muted-foreground: 210 15% 50%;
+    --muted: 210 25% 92%;
+    --muted-foreground: 220 20% 50%;
 
-    --accent: 14 90% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 95% 55%;
+    --accent-foreground: 220 50% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 30% 90%;
-    --input: 210 30% 90%;
-    --ring: 195 85% 45%;
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 220 55% 25%;
 
     --radius: 1rem;
 
-    /* App-specific colors */
-    --app-gradient-start: 195 85% 45%;
-    --app-gradient-end: 220 90% 50%;
+    /* App-specific colors - Navy and Gold theme */
+    --app-gradient-start: 220 55% 25%;
+    --app-gradient-end: 220 65% 35%;
     --emergency: 14 90% 60%;
     --success: 142 76% 45%;
     --glass-bg: 0 0% 100%;
-    --glass-border: 210 30% 90%;
+    --glass-border: 210 25% 88%;
+    --navy: 220 55% 25%;
+    --gold: 45 95% 55%;
   }
 
   .dark {
-    --background: 210 30% 8%;
+    --background: 220 45% 8%;
     --foreground: 210 30% 95%;
 
-    --card: 210 25% 12%;
+    --card: 220 40% 12%;
     --card-foreground: 210 30% 95%;
 
-    --popover: 210 25% 12%;
+    --popover: 220 40% 12%;
     --popover-foreground: 210 30% 95%;
 
-    --primary: 195 85% 55%;
+    --primary: 220 55% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 25% 18%;
+    --secondary: 220 35% 18%;
     --secondary-foreground: 210 30% 95%;
 
-    --muted: 210 25% 18%;
-    --muted-foreground: 210 20% 65%;
+    --muted: 220 35% 18%;
+    --muted-foreground: 220 20% 65%;
 
-    --accent: 14 90% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 95% 60%;
+    --accent-foreground: 220 50% 15%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 25% 18%;
-    --input: 210 25% 18%;
-    --ring: 195 85% 55%;
+    --border: 220 35% 18%;
+    --input: 220 35% 18%;
+    --ring: 220 55% 35%;
 
-    --app-gradient-start: 195 85% 55%;
-    --app-gradient-end: 220 90% 60%;
+    --app-gradient-start: 220 55% 35%;
+    --app-gradient-end: 220 65% 45%;
     --emergency: 14 90% 65%;
     --success: 142 76% 55%;
-    --glass-bg: 210 25% 12%;
-    --glass-border: 210 25% 20%;
+    --glass-bg: 220 40% 12%;
+    --glass-border: 220 35% 20%;
+    --navy: 220 55% 35%;
+    --gold: 45 95% 60%;
   }
 }
 
