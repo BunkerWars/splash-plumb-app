@@ -35,6 +35,15 @@ import SewerLineRepair from "./pages/services/repair/SewerLine";
 import DrainRepair from "./pages/services/repair/Drain";
 import WaterLineRepair from "./pages/services/repair/WaterLine";
 import GasLineRepair from "./pages/services/repair/GasLine";
+import Maintenance from "./pages/services/Maintenance";
+import SewerLineCleaning from "./pages/services/maintenance/SewerLineCleaning";
+import WaterHeaterMaintenance from "./pages/services/maintenance/WaterHeaterMaintenance";
+import DrainCleaningMaintenance from "./pages/services/maintenance/DrainCleaning";
+import GarbageDisposalMaintenance from "./pages/services/maintenance/GarbageDisposal";
+import BackflowTesting from "./pages/services/maintenance/BackflowTesting";
+import SumpPump from "./pages/services/maintenance/SumpPump";
+import WaterSoftenerMaintenance from "./pages/services/maintenance/WaterSoftener";
+import AnnualInspection from "./pages/services/maintenance/AnnualInspection";
 
 const queryClient = new QueryClient();
 
@@ -73,6 +82,15 @@ const App = () => (
           <Route path="/services/repair/drain" element={<DrainRepair />} />
           <Route path="/services/repair/water-line" element={<WaterLineRepair />} />
           <Route path="/services/repair/gas-line" element={<GasLineRepair />} />
+          <Route path="/services/maintenance" element={<Maintenance />} />
+          <Route path="/services/maintenance/sewer-line-cleaning" element={<SewerLineCleaning />} />
+          <Route path="/services/maintenance/water-heater-maintenance" element={<WaterHeaterMaintenance />} />
+          <Route path="/services/maintenance/drain-cleaning" element={<DrainCleaningMaintenance />} />
+          <Route path="/services/maintenance/garbage-disposal" element={<GarbageDisposalMaintenance />} />
+          <Route path="/services/maintenance/backflow-testing" element={<BackflowTesting />} />
+          <Route path="/services/maintenance/sump-pump" element={<SumpPump />} />
+          <Route path="/services/maintenance/water-softener" element={<WaterSoftenerMaintenance />} />
+          <Route path="/services/maintenance/annual-inspection" element={<AnnualInspection />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/about" element={<About />} />

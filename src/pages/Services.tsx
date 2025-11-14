@@ -27,6 +27,11 @@ const allServices = [
     description: "Fast, reliable repairs for all plumbing issues. From minor drips to major leaks."
   },
   {
+    icon: ShieldCheck,
+    title: "Maintenance",
+    description: "Preventive maintenance to keep your plumbing system running smoothly."
+  },
+  {
     icon: Droplets,
     title: "Leak Detection",
     description: "Unlike major disasters, leaks can be discreet. Our advanced technology finds them fast."
@@ -94,7 +99,7 @@ const Services = () => {
         <div className="space-y-3 animate-slide-up">
           {allServices.map((service, index) => {
             const slug = service.title.toLowerCase().replace(/\s+/g, '-').replace(/[&]/g, 'and');
-            const hasDetailPage = ['installation', 'repair', 'leak-detection', 'water-heaters', 'drain-cleaning'].includes(slug);
+            const hasDetailPage = ['installation', 'repair', 'maintenance', 'leak-detection', 'water-heaters', 'drain-cleaning'].includes(slug);
             
             return (
               <div key={index} style={{ animationDelay: `${index * 50}ms` }}>
