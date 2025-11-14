@@ -12,7 +12,7 @@ export const ServiceCard = ({ icon: Icon, title, description, onClick }: Service
   return (
     <Card
       onClick={onClick}
-      className="glass-card p-6 hover-lift tap-scale cursor-pointer group"
+      className={`glass-card p-6 hover-lift tap-scale group ${onClick ? 'cursor-pointer' : ''}`}
     >
       <div className="flex items-start gap-4">
         <div className="rounded-2xl bg-navy p-3 group-hover:scale-110 transition-transform duration-300 group-hover:bg-gold group-hover:shadow-lg">

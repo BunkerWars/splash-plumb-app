@@ -1,11 +1,11 @@
-import { Home, Wrench, Phone, User } from "lucide-react";
+import { Home, Wrench, Phone, DollarSign } from "lucide-react";
 import { NavLink } from "./NavLink";
 
 const navItems = [
   { icon: Home, label: "Home", path: "/" },
   { icon: Wrench, label: "Services", path: "/services" },
+  { icon: DollarSign, label: "Pricing", path: "/pricing" },
   { icon: Phone, label: "Emergency", path: "/emergency" },
-  { icon: User, label: "About", path: "/about" },
 ];
 
 export const BottomNav = () => {

@@ -8,6 +8,10 @@ import Services from "./pages/Services";
 import Emergency from "./pages/Emergency";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Pricing from "./pages/Pricing";
+import DrainCleaning from "./pages/services/DrainCleaning";
+import WaterHeaters from "./pages/services/WaterHeaters";
+import LeakDetection from "./pages/services/LeakDetection";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +24,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/drain-cleaning" element={<DrainCleaning />} />
+          <Route path="/services/water-heaters" element={<WaterHeaters />} />
+          <Route path="/services/leak-detection" element={<LeakDetection />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/emergency" element={<Emergency />} />
           <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

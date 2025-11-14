@@ -82,11 +82,19 @@ const Services = () => {
 
         {/* Services Grid */}
         <div className="space-y-3 animate-slide-up">
-          {allServices.map((service, index) => (
-            <div key={index} style={{ animationDelay: `${index * 50}ms` }}>
-              <ServiceCard {...service} />
-            </div>
-          ))}
+          {allServices.map((service, index) => {
+            const slug = service.title.toLowerCase().replace(/\s+/g, '-').replace(/[&]/g, 'and');
+            const hasDetailPage = ['leak-detection', 'water-heaters', 'drain-cleaning'].includes(slug);
+            
+            return (
+              <div key={index} style={{ animationDelay: `${index * 50}ms` }}>
+                <ServiceCard 
+                  {...service} 
+                  onClick={hasDetailPage ? () => navigate(`/services/${slug}`) : undefined}
+                />
+              </div>
+            );
+          })}
         </div>
 
         {/* CTA */}
