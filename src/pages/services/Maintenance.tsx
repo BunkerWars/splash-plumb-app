@@ -2,6 +2,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { 
@@ -63,6 +64,10 @@ const Maintenance = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Plumbing Maintenance Services Fresno, CA | Prevent Costly Repairs</title>
+        <meta name="description" content="Preventive plumbing maintenance in Fresno: drain cleaning, water heater service, sewer line cleaning, backflow testing & more. Save money, avoid emergencies. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

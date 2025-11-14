@@ -2,6 +2,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { 
@@ -80,6 +81,10 @@ const Repair = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Plumbing Repair Services Fresno, CA | Fix Leaks, Pipes, Toilets & Water Heaters</title>
+        <meta name="description" content="Fast plumbing repairs in Fresno: leaky faucets, burst pipes, toilets, water heaters, drains, sewer lines & more. 24/7 emergency repairs, licensed plumbers. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

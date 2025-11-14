@@ -2,6 +2,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Hero } from "@/components/Hero";
 import { ServiceCard } from "@/components/ServiceCard";
+import { Helmet } from "react-helmet-async";
 import { 
   Droplets, 
   Thermometer, 
@@ -50,6 +51,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Fresno Plumbing - Expert Plumbers in Fresno, CA Since 1945 | 24/7 Emergency Service</title>
+        <meta name="description" content="Trusted Fresno plumbing company serving Central Valley for 79+ years. Licensed plumbers offer 24/7 emergency service, leak detection, water heaters, drain cleaning & more. Call (559) 275-2535!" />
+      </Helmet>
       <Hero />
 
       <div className="max-w-lg mx-auto px-4 space-y-6">

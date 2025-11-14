@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { Phone, Clock, MapPin, Shield, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const Emergency = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>24/7 Emergency Plumber Fresno, CA | Fast Response | Call (559) 275-2535</title>
+        <meta name="description" content="Emergency plumber in Fresno, CA available 24/7. Fast 45-min response for burst pipes, leaks, sewage backups & more. Licensed plumbers serving Central Valley. Call now: (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

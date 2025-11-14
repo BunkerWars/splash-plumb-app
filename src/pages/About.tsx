@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { Shield, Users, Award, Clock, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const About = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>About Fresno Plumbing - 79 Years Serving Central Valley, CA | Licensed & Certified</title>
+        <meta name="description" content="Fresno Plumbing has served Central Valley since 1945. Licensed, certified plumbers offering residential, commercial & industrial services. Medical gas certified. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

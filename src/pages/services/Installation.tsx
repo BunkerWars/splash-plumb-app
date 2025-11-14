@@ -2,6 +2,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { 
@@ -81,6 +82,10 @@ const Installation = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Plumbing Installation Services Fresno, CA | Faucets, Toilets, Water Heaters & More</title>
+        <meta name="description" content="Expert plumbing installation in Fresno: faucets, toilets, water heaters, dishwashers, garbage disposals, sinks & repiping. Licensed installers, 79 years experience. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">
