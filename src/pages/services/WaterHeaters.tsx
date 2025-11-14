@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, CheckCircle2, Clock, Shield, Award } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const WaterHeaters = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Water Heater Installation & Repair Fresno, CA | Tank & Tankless | Expert Service</title>
+        <meta name="description" content="Water heater services in Fresno: tank & tankless installation, repairs, maintenance. No hot water? We fix it fast! Licensed plumbers, 79 years serving Central Valley. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

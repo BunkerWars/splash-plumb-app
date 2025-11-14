@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, CheckCircle2, Clock, Shield, Award } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const WaterFiltration = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Water Filtration System Installation Fresno, CA | Clean Water Solutions</title>
+        <meta name="description" content="Water filtration system installation in Fresno: whole-home filters, under-sink systems, reverse osmosis. Clean, safe water for Central Valley homes. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
           <Button variant="ghost" size="icon" onClick={() => navigate('/services/installation')} className="tap-scale">

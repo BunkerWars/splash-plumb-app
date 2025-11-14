@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, CheckCircle2, Clock, Shield, Award, AlertTriangle } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const GasLine = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Gas Line Repair Fresno, CA | Emergency Gas Leak Fixes | Certified Technicians</title>
+        <meta name="description" content="Emergency gas line repair in Fresno: gas leaks, damaged lines, safety inspections. 24/7 certified technicians, licensed, insured. 79 years serving Central Valley. Call (559) 275-2535 NOW!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
           <Button variant="ghost" size="icon" onClick={() => navigate('/services/repair')} className="tap-scale">

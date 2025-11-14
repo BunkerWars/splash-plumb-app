@@ -1,6 +1,7 @@
 import { BottomNav } from "@/components/BottomNav";
 import { EmergencyButton } from "@/components/EmergencyButton";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import { ArrowLeft, CheckCircle2, Clock, Shield, Award } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +10,10 @@ const Drain = () => {
 
   return (
     <div className="min-h-screen pb-20 animate-fade-in">
+      <Helmet>
+        <title>Drain Repair Fresno, CA | Fix Damaged Drains & Persistent Clogs</title>
+        <meta name="description" content="Drain repair in Fresno: damaged pipes, persistent clogs, slow drainage. Expert repairs for kitchen, bathroom & floor drains. Licensed plumbers, 79 years experience. Call (559) 275-2535!" />
+      </Helmet>
       <div className="max-w-lg mx-auto px-4 py-6">
         <div className="flex items-center gap-4 mb-6">
           <Button variant="ghost" size="icon" onClick={() => navigate('/services/repair')} className="tap-scale">
