@@ -154,7 +154,7 @@ const About = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/fresno.plumbing/"
                 className="flex items-center justify-center w-12 h-12 rounded-xl bg-navy text-white hover:bg-navy/90 tap-scale transition-colors"
                 aria-label="Instagram"
               >
