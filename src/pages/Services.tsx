@@ -89,7 +89,7 @@ const Services = () => {
         <div className="space-y-3 animate-slide-up">
           {allServices.map((service, index) => {
             const slug = service.title.toLowerCase().replace(/\s+/g, '-').replace(/[&]/g, 'and');
-            const hasDetailPage = ['leak-detection', 'water-heaters', 'drain-cleaning'].includes(slug);
+            const hasDetailPage = ['installation', 'leak-detection', 'water-heaters', 'drain-cleaning'].includes(slug);
             
             return (
               <div key={index} style={{ animationDelay: `${index * 50}ms` }}>
