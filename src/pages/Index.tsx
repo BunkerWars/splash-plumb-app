@@ -50,7 +50,7 @@ const Index = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen pb-20 animate-fade-in">
+    <div className="min-h-screen pb-28 animate-fade-in">
       <Helmet>
         <title>Fresno Plumbing - Expert Plumbers in Fresno, CA Since 1945 | 24/7 Emergency Service</title>
         <meta name="description" content="Trusted Fresno plumbing company serving Central Valley for 79+ years. Licensed plumbers offer 24/7 emergency service, leak detection, water heaters, drain cleaning & more. Call (559) 292-4065!" />

@@ -9,7 +9,7 @@ const About = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen pb-20 animate-fade-in">
+    <div className="min-h-screen pb-28 animate-fade-in">
       <Helmet>
         <title>About Fresno Plumbing - 79 Years Serving Central Valley, CA | Licensed & Certified</title>
         <meta
